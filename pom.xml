@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>TP2_Users</artifactId>
+    <artifactId>TP_SpringMVC-SpringData_JPA-Hibernate</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TP2_Users</name>
-    <description>TP2_Users</description>
+    <name>TP_SpringMVC-SpringData_JPA-Hibernate</name>
+    <description>TP_SpringMVC-SpringData_JPA-Hibernate</description>
     <url/>
     <licenses>
         <license/>
@@ -79,6 +79,17 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!-- Source: https://mvnrepository.com/artifact/org.webjars/bootstrap -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>5.3.5</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>nz.net.ultraq.thymeleaf</groupId>
+            <artifactId>thymeleaf-layout-dialect</artifactId>
         </dependency>
     </dependencies>
 
