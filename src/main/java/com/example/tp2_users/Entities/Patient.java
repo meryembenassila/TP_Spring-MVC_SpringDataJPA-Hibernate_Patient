@@ -1,14 +1,16 @@
 package com.example.tp2_users.Entities;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.Collection;
 import java.util.Date;
-@Entity
-@AllArgsConstructor
+@Getter
+@Setter
 @NoArgsConstructor
-@Data //pour les getters et les setters
+@AllArgsConstructor
+@Entity //pour les getters et les setters
 public class Patient {
      @Id
      @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,6 +20,7 @@ public class Patient {
      private Date dateNaissance;
      private boolean malade;
      @OneToMany(mappedBy = "patient",fetch = FetchType.LAZY)
+     @ToString.Exclude
      private Collection<RendezVous> rendezVous;
 
 }
