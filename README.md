@@ -11,7 +11,7 @@ Ce projet a été réalisé dans le cadre d'un TP pour mettre en pratique les co
 - Thymeleaf
 - Spring Security
 
-L'objectif est de développer une application web permettant de gérer des produits.
+L'objectif est de développer une application web permettant de gérer des patients.
 
 ---
 
@@ -19,7 +19,7 @@ L'objectif est de développer une application web permettant de gérer des produ
 
 Le schéma suivant montre comment **JPA et Hibernate permettent la communication entre l'application et la base de données.**
 
-![Architecture JPA](screenshots/JPA.png)
+![Architecture JPA](images/JPA.png)
 
 ---
 
@@ -27,11 +27,11 @@ Le schéma suivant montre comment **JPA et Hibernate permettent la communication
 
 Le schéma suivant illustre le fonctionnement du modèle **Spring MVC** et le flux des requêtes HTTP entre le navigateur, le contrôleur et la vue.
 
-![Spring MVC](screenshots/MVC3.png)
+![Spring MVC](images/MVC3.png)
 
-![Spring MVC](screenshots/MVC2.png)
+![Spring MVC](images/MVC2.png)
 
-![Spring MVC](screenshots/MVC1.png)
+![Spring MVC](images/MVC1.png)
 
 ---
 
@@ -205,7 +205,7 @@ https://github.com/meryembenassila/TP_Spring-MVC_SpringDataJPA-Hibernate_Patient
 
 ### Exécuter l'application
 
-Lancer la classe principale  **TestSpringBootMVCAPP.java**
+Lancer la classe principale  **HospitalApplication.java**
 
 Ensuite, ouvrir dans le navigateur :
 ```bash
